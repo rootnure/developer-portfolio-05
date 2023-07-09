@@ -1,5 +1,5 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 /* common shared styles */
 * {
@@ -18,11 +18,18 @@ body {
 .btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
 /* nav related styles */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-title {
@@ -33,6 +40,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
