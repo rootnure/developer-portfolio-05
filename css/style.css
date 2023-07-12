@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 /* common shared styles */
-* {
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -165,7 +162,7 @@ main section {
     box-shadow: 0px 6px 50px 0 #0001;
 }
 
-.skill-title{
+.skill-title {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -180,4 +177,36 @@ main section {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
