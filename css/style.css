@@ -144,3 +144,20 @@ main {
     color: #181818;
     font-weight: 700;
 }
+
+/* what i do section styles here */
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    padding: 25px;
+    box-shadow: 15px 15px 150px #DDD;
+    width: 20%;
+}
