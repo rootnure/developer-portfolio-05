@@ -119,6 +119,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section style here */
 .about {
     padding: 130px;
@@ -146,7 +150,6 @@ main {
 }
 
 /* what i do section styles here */
-
 #what-i-do-description {
     padding: 30px 150px;
 }
@@ -154,10 +157,19 @@ main {
 .skills-container {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .skill {
-    padding: 25px;
-    box-shadow: 15px 15px 150px #DDD;
-    width: 20%;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 #0001;
+}
+
+.skill-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
 }
