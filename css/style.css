@@ -210,3 +210,11 @@ main section {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* footer styles here */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
